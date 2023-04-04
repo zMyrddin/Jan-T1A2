@@ -17,3 +17,6 @@ At the moment Linkedin seems to not find my page
 
 ### Home
 Home Page. Displays welcome image and welcome text.
+
+### Projects
+Stuff that is full of lorem ipsums. e.g. a box of Java with lorem ipsum text, same with HTML box. same with python box. etc. maybe 3-6 boxes to try a grid.

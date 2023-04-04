@@ -54,10 +54,6 @@ footer {
     font-size: 3.2em;
     background-color: red;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
   .social-media {
     font-size: 1.8em;
     display: flex;
@@ -79,11 +75,6 @@ footer {
     font-size: 2em;
     background-color: red;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-    content: url(../../images/home\ page\ background\ img\ vertical.jpg);
-  }
   .social-media {
     font-size: 1em;
     background-color: aqua;
@@ -97,4 +88,4 @@ footer {
     font-size: 1em;
     background-color: beige;
   }
-}/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=projects.css.map */
