@@ -26,19 +26,6 @@ header {
   background-color: rgb(104, 166, 216);
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-body main section .welcometext {
-  text-align: center;
-  font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: grey;
-}
-
 footer {
   display: flex;
   justify-content: center;
@@ -57,8 +44,10 @@ footer {
     background-color: red;
   }
   img {
-    max-width: 100%;
-    height: auto;
+    width: 96vw;
+    display: block;
+    justify-content: center;
+    align-items: center;
   }
   .social-media {
     font-size: 1.8em;
@@ -82,9 +71,10 @@ footer {
     background-color: red;
   }
   img {
-    max-width: 100%;
-    height: auto;
-    content: url(../../images/home\ page\ background\ img\ vertical.jpg);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
   }
   .social-media {
     font-size: 1em;
@@ -99,4 +89,4 @@ footer {
     font-size: 1em;
     background-color: beige;
   }
-}/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=about.css.map */

@@ -26,19 +26,6 @@ header {
   background-color: rgb(104, 166, 216);
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-body main section .welcometext {
-  text-align: center;
-  font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: grey;
-}
-
 footer {
   display: flex;
   justify-content: center;
@@ -56,9 +43,12 @@ footer {
     font-size: 3.2em;
     background-color: red;
   }
-  img {
-    max-width: 100%;
-    height: auto;
+  article {
+    width: 25vw;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   .social-media {
     font-size: 1.8em;
@@ -81,10 +71,12 @@ footer {
     font-size: 2em;
     background-color: red;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-    content: url(../../images/home\ page\ background\ img\ vertical.jpg);
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
   }
   .social-media {
     font-size: 1em;
@@ -99,4 +91,38 @@ footer {
     font-size: 1em;
     background-color: beige;
   }
-}/*# sourceMappingURL=home.css.map */
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0vw 5vw 5vw 5vw;
+}
+main article {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+main article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+main article h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+main article article p {
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+main article article a {
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}/*# sourceMappingURL=blog.css.map */

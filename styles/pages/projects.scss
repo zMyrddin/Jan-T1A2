@@ -1,3 +1,6 @@
+// @import url(../components/_components.scss);
+
+
 header {
     // height: 5%;
     // margin: 5%;
@@ -13,6 +16,8 @@ header {
     justify-content: space-around;
     align-items: center;
     position: relative;
+    width: 95vw;
+    // padding-bottom: 5vh;
     // width: 80%;
     
   
@@ -44,12 +49,38 @@ body {
 
     main{
       section{
-        .welcometext{
+        .grid-text {
+            justify-content: center;
             text-align: center;
             font-size: 18px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background-color: grey;
+            background-color: #ddd;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
         }
+
+        .grid-img {
+          background: #eee;
+          // max-width: auto;
+          // max-height: auto;
+          align-items: center;
+          justify-content: center;
+          display: grid;
+        }
+
+        h2 {
+          text-align: center;
+          font-size: 18px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          background-color: grey;
+        }
+
+        .html {
+          background: #eee;
+
+        }
+
+
       }
 
   }
