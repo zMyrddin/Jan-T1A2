@@ -1,0 +1,45 @@
+@import "../components/_components.scss";
+@import "../components/_fonts.scss";
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+  section{
+    .welcometext{
+        text-align: center;
+        font-size: 3em;
+    }
+  }
+
+  img {
+    width: 100%;
+    // height: auto;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  section{
+    .welcometext{
+        text-align: center;
+        font-size: 2em;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    content: url(../../images/home\ page\ background\ img\ vertical.jpg);
+    // update pic to cropped of large img
+  }
+
+} 

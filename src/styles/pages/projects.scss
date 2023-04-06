@@ -1,0 +1,45 @@
+@import "../components/_components.scss";
+@import "../components/_fonts.scss";
+
+
+
+
+body {
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    main{
+      section{
+        article{
+          .grid-text {
+              justify-content: center;
+              text-align: center;
+              background-color: #ddd;
+              display: grid;
+              grid-template-columns: 1fr 2fr;
+              align-items: center;
+          }
+
+          .grid-img {
+            background: #eee;
+            // max-width: auto;
+            // max-height: auto;
+            align-items: center;
+            justify-content: center;
+            display: grid;
+          }
+
+          h2 {
+            text-align: center;
+            background-color: grey;
+          }
+
+        }
+      }
+
+  }
+}
+

@@ -1,0 +1,170 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding-bottom: 5vh;
+  width: 100%;
+}
+.nav-items a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px black solid;
+  border-radius: 20%;
+  border-color: black;
+  padding: 10px;
+  font-size: 1em;
+  background-color: #D4E8FF;
+}
+
+body {
+  background-color: #d4feff;
+  background-image: linear-gradient(90deg, #d4feff, #FFD5D4);
+  background-size: 200% 200%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    width: 100%;
+    font-size: 4em;
+  }
+  .nav-items {
+    font-size: 3em;
+  }
+  .social-media {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-between;
+  }
+  i {
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+  .footertext {
+    font-size: 1.8em;
+    background-color: beige;
+  }
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    width: 100%;
+    height: auto;
+    font-size: 2em;
+  }
+  .nav-items {
+    font-size: 1em;
+  }
+  .social-media {
+    font-size: 1em;
+    display: flex;
+  }
+  .fa-brands {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footertext {
+    font-size: 1em;
+    background-color: #FEFFD4;
+  }
+}
+@font-face {
+  font-family: Righteous;
+  src: url(../../fonts/Righteous-Regular.ttf);
+}
+@font-face {
+  font-family: Comfortaa;
+  src: url(../../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: MirzaBold;
+  src: url(../../fonts/Mirza-Bold.ttf);
+}
+h1 {
+  font-family: Righteous;
+}
+
+h2 {
+  font-family: Righteous;
+}
+
+h3 {
+  font-family: Righteous;
+}
+
+h4 {
+  font-family: Righteous;
+}
+
+p {
+  font-family: Comfortaa;
+}
+
+li {
+  font-family: Comfortaa;
+}
+
+a {
+  font-family: MirzaBold;
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro {
+    font-size: 2em;
+    padding: 0% 20% 0% 20%;
+    text-align: center;
+  }
+  .interests {
+    padding-left: 20%;
+    font-size: 1.5em;
+  }
+  .workplaces {
+    padding-left: 20%;
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 767px) {
+  img {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .intro {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .interests {
+    font-size: 1.2em;
+    text-align: left;
+  }
+  .workplaces {
+    font-size: 1.2em;
+    text-align: left;
+  }
+}/*# sourceMappingURL=about.css.map */

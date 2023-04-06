@@ -1,0 +1,88 @@
+@import "../components/_components.scss";
+@import "../components/_fonts.scss";
+
+
+  
+  @media screen and (min-width: 768px) {
+
+    article{
+        width: 30%;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85vw;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+  } 
+
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0vw 5vw 5vw 5vw;
+  
+    article {
+      // display: flex;
+    //   flex-direction:column
+      // align-items: center;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+  
+    //   &:hover {
+    //     transform: translateY(-5px);
+    //   }
+
+      h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+  
+      article p {
+        font-size: 1em;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 20px;
+      }
+  
+      article a {
+        color: #fff;
+        background-color: #333;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+  
+        // **removing header as it overlaps with the nav**
+        // &:hover {
+        //   background-color: #444;
+        // }
+      }
+    }
+  }

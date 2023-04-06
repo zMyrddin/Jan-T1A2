@@ -1,0 +1,78 @@
+@import "../components/_components.scss";
+@import "../components/_fonts.scss";
+
+@media screen and (min-width: 768px) {
+
+  img{
+      width: 100%;
+      display: block;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .intro {
+    font-size: 2em;
+    padding: 0% 20% 0% 20%;
+    text-align: center;
+  }
+
+  .interests{
+    padding-left: 20%;
+    font-size: 1.5em;
+  }
+
+  .workplaces{
+    padding-left: 20%;
+    font-size: 1.5em;
+  }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+  img{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+
+  .intro {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .interests{
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+  .workplaces{
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+
+ 
+}
+
+// .interests {
+//   h2{ text-align: center;}
+//   ul{list-style: none;}
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   text-align: center;
+//   align-items: center;
+// }
+
+// .workplaces {
+//   h2{ text-align: center;}
+//   ul{list-style: none;}
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   text-align: center;
+//   align-items: center;
+// }
