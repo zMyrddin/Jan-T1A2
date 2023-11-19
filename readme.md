@@ -2,8 +2,7 @@
 
 ## Overview
 This is a portfolio made for the assignment of Coder Academy Term 1 with the latest submission date of Apr 7, 2023.  
-
-*I'd like to thank Simon for granting me an extension. It's been a rough few weeks and I need to do some uber eats in order to scrounge up money to pay for the course after I got made redundant*
+
 
 Link to published portfolio site: https://janconsul-t1a2.netlify.app/
 
